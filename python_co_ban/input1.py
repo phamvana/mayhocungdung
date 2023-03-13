@@ -1,0 +1,11 @@
+print("Nhap vao ten: ")
+name=input()
+print("Nhap vao tuoi: ")
+age=int(input())
+print("Xin chao " + name +" tuoi " + str(age))
+print("Nhap vao so a: ")
+a = int(input())
+print("Nhap vao so b: ")
+b = int(input())
+
+print("a % b = "+str(a%b))
