@@ -18,3 +18,7 @@ print(dt.iloc[5:10, 3:4])
 print("----------------------")
 print("column Outlook")
 print(dt.Outlook)
+
+
+wine = pd.read_csv("wine.csv")
+print(wine.head())
