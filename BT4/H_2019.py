@@ -47,3 +47,10 @@ print(round(err,3))
 np.sqrt(err)
 
 print("SQRT ERR",np.sqrt(err))
+
+
+# #danh gia bai toan hoi qui tuyến tính
+# from sklearn.model_selection import train_test_split
+# X_train, X_test, y_train, y_test = train_test_split(X,Y,test_size=1.0/3, random_state=100)
+# len(X_train)
+# print(len(X_train))
